@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;}
+body{
+    background-image: url("Background.jpg");
+    overflow-x: scroll;
+    overflow-y: hidden;    
+}
+#header{
+    height: 40px;
+    width: 100%;
+    background-color: #595959  ;
+    border-bottom: medium solid coral;
+}
+.headeritem{
+    display:inline;
+    vertical-align: middle;
+    padding: 15px 7px 10px 7px;
+    border-right: medium solid coral;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.hidden{
+    display: none;
+}
+#comam{
+    display:inline;
+    vertical-align: middle;
+    padding: 15px 7px 8px 15px;
+    border-right: medium solid coral;
+    border-left: medium solid coral;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    margin-left: 16%;
+}
+#menu{
+    height: 40px;
+    padding-top: 8px;
+}
+#menu a:link    {color:floralwhite; background-color:transparent; text-decoration:none}
+#menu a:visited {color:floralwhite; background-color:transparent; text-decoration:none}
+#menu a:hover   {color:coral; background-color:transparent; text-decoration:none}
+
+h1, h3, div p, h4{
+    text-align: center;
+}
+#p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#left{
+    width: 49%;
+    height: 500px;
+    border-right: medium solid coral;
+    float: left;
+    padding-right: 1%;
+    margin-top: 10px;
+}
+#right{
+    width: 49%;
+    height: 500px;
+    float: right;
+    margin-top: 10px;
+}
+#right p, #left p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#riecher{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 33%;
+}
+img{
+    border: medium solid coral;
+    border-radius: 4px;
+}
