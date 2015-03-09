@@ -143,4 +143,24 @@ h1{
 }
 h3{
     color: #19c589;
+    float: left;
 }
+p{
+    width: 70%;
+}
+#riecher{
+    float: left;
+    margin: 10px;
+    border: solid medium #19c589;
+    border-radius: 5px;
+}
+#rightp{
+    display: table-cell;
+    width: 10%;
+    
+}
+leftp{
+    display: table-cell;
+    float: right;
+}
+
