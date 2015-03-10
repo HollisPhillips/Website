@@ -98,6 +98,15 @@ ul li:hover ul {
         padding: 0px;
         margin: 0px;
     }
+    div#main{
+        width: 95%;
+        padding: 10px;
+        border: none;
+    }
+    div#sidebar{
+        width: 95%;
+        padding: 10px; 
+    }
     
 
 }
@@ -125,7 +134,7 @@ input[type=checkbox]:checked ~ #mainul{
 }
 #body{
     background-color: aliceblue;
-    height: 50em;;
+    height: auto;
     width: 75%;
     border-top: solid medium #19c589;
     margin-left: auto;
@@ -134,10 +143,6 @@ input[type=checkbox]:checked ~ #mainul{
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-#content{
-    padding: 0px 20px 10px 20px;
-    margin: 0px;
-}
 h1{
     color: #3e3e3e;
 }
@@ -145,22 +150,20 @@ h3{
     color: #19c589;
     float: left;
 }
-p{
-    width: 70%;
-}
 #riecher{
     float: left;
     margin: 10px;
     border: solid medium #19c589;
     border-radius: 5px;
 }
-#rightp{
-    display: table-cell;
-    width: 10%;
-    
+#main{
+    border-right: solid thin #19c589;
+    width: 65%;
+    padding: 20px;
+    display: inline-block;
 }
-leftp{
-    display: table-cell;
-    float: right;
+#sidebar{
+    width: 25%;
+    display: inline-block;
 }
 
